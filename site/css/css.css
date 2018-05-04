@@ -5,11 +5,12 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(9,1fr);
-    background-image: url("../img/Brandon3.jpg");
+    background-image: url("../img/Brandon3best.jpg");
     width: 720px;
     height: 1500px;
 }
 .main {
+    grid-template-rows: repeat(6,1fr);
     display: grid;
     grid-column: 2/3;
     grid-row: 2/8;
@@ -24,6 +25,7 @@ body{
 }
 
 nav {
+    height: 304px;
     display: grid;
     grid-column: 1/4;
     grid-row: 1/2;
@@ -105,4 +107,33 @@ footer{
 .button{
     width: 80px;
     height: 30px;
+}
+
+.button2{
+    height: 50px;
+    width: 150px;
+
+}
+
+.button3{
+    display: grid;
+    grid-row: 1/2;
+    height: 50px;
+    width: 240px;
+}
+
+.p1{
+    display: grid;
+    grid-row: 3/8;
+}
+
+.dropdown{
+    background-color: white;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.dropdownshow{
+    opacity: 1;
+    transition: 0.5s;
 }
